@@ -59,13 +59,9 @@ npm run preview
 
 ## Deployment
 
-This repository includes a GitHub Actions workflow that deploys to Shopify Oxygen on push.
+Auto-deployment is disabled for this repository.
 
-- Workflow file: `.github/workflows/oxygen-deployment-1000028067.yml`
-- Deployment command used in CI: `npx shopify hydrogen deploy`
-- Required GitHub secret: `OXYGEN_DEPLOYMENT_TOKEN_1000028067`
-
-For manual deployment, you can run:
+To deploy manually, run:
 
 ```bash
 npx shopify hydrogen deploy
